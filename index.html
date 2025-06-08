@@ -6,65 +6,102 @@
   <title>AstravueX Engineering Group</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    body { font-family: 'Segoe UI', sans-serif; }
-    .hero { background-color: #0d1b2a; color: white; padding: 80px 20px; text-align: center; }
-    .section { padding: 60px 20px; }
-    .dark-section { background-color: #f8f9fa; }
-    .footer { background-color: #0d1b2a; color: white; padding: 20px; text-align: center; }
-    h1, h2 { font-weight: bold; }
+    body { font-family: 'Helvetica Neue', sans-serif; background-color: #f4f6f9; }
+    .hero {
+      background: linear-gradient(to right, #0d1b2a, #1b263b);
+      color: #fff;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .section {
+      padding: 60px 20px;
+    }
+    .section-title {
+      margin-bottom: 30px;
+    }
+    .gray-bg {
+      background-color: #eef1f5;
+    }
+    .footer {
+      background-color: #0d1b2a;
+      color: #ccc;
+      padding: 20px;
+      font-size: 14px;
+    }
+    a { color: #007bff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
   <header class="hero">
-    <h1>AstravueX Engineering Group</h1>
+    <h1 class="display-4">AstravueX Engineering Group</h1>
     <p class="lead">From Insight to Integrity – Engineered</p>
-    <p>Cybersecurity & Compliance Solutions for Critical Infrastructure</p>
+    <p class="mt-3">Cybersecurity & Compliance for Critical Infrastructure</p>
   </header>
 
-  <section class="section">
-    <div class="container text-center">
-      <h2>About Us</h2>
-      <p>We specialize in cybersecurity audits, digital risk simulation, and GRC compliance for Small Modular Reactors (SMRs), marine, and energy sectors. Headquartered in Estonia, we serve the EU’s most demanding infrastructure clients.</p>
+  <section class="section text-center">
+    <div class="container">
+      <h2 class="section-title">About Us</h2>
+      <p>We help nuclear, marine, and energy companies meet evolving cybersecurity and regulatory demands through specialized audits, GRC consulting, and engineering advisory. Based in Estonia, we deliver pan-European compliance solutions for high-risk infrastructure.</p>
     </div>
   </section>
 
-  <section class="section dark-section">
+  <section class="section gray-bg">
     <div class="container">
-      <h2 class="text-center">Our Services</h2>
-      <ul>
-        <li>Cybersecurity Audits for SMRs & Critical Infrastructure</li>
-        <li>GRC Consulting (IEC 62443, ISO 27001, GDPR, IAEA)</li>
-        <li>Digital Twin-Based Risk Simulations</li>
-        <li>Regulatory Readiness & Remediation</li>
-        <li>Secure System Architecture & Incident Response Planning</li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <h2 class="text-center">Industries We Serve</h2>
-      <div class="row text-center">
-        <div class="col-md-4">Nuclear Energy & SMRs</div>
-        <div class="col-md-4">Marine & Offshore Infrastructure</div>
-        <div class="col-md-4">Oil, Gas & Renewable Energy</div>
+      <h2 class="section-title text-center">Services</h2>
+      <div class="row text-start">
+        <div class="col-md-6">
+          <ul>
+            <li>Compliance audits for SMRs and critical systems</li>
+            <li>Risk assessment & cybersecurity architecture</li>
+            <li>Implementation support for IEC 62443, ISO 27001, GDPR</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul>
+            <li>Digital twin-based simulations</li>
+            <li>Incident response & remediation planning</li>
+            <li>Advisory for EU-wide regulatory readiness</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="section dark-section">
+  <section class="section text-center">
     <div class="container">
-      <h2 class="text-center">Meet the Team</h2>
-      <p><strong>Amit Kulkarni</strong> – Founder & Lead Auditor</p>
-      <p><strong>Ankita Kulkarni</strong> – Co-Founder & Strategy Lead</p>
-      <p><strong>Dr. Jyoti Bali</strong> – Nuclear Cybersecurity Advisor</p>
-      <p><strong>Stewart Gillies</strong> – SME for GRC Implementation</p>
+      <h2 class="section-title">Industries We Support</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-4">Nuclear Energy & SMRs</div>
+        <div class="col-md-4">Marine & Offshore Infrastructure</div>
+        <div class="col-md-4">Energy, Oil & Gas</div>
+      </div>
     </div>
   </section>
 
-  <section class="section">
-    <div class="container text-center">
-      <h2>Contact Us</h2>
+  <section class="section gray-bg">
+    <div class="container">
+      <h2 class="section-title text-center">Leadership</h2>
+      <div class="row text-center">
+        <div class="col-md-6">
+          <p><strong>Amit Kulkarni</strong><br>Founder & Lead Auditor</p>
+        </div>
+        <div class="col-md-6">
+          <p><strong>Ankita Kulkarni</strong><br>Co-Founder & Strategy</p>
+        </div>
+        <div class="col-md-6">
+          <p><strong>Dr. Jyoti Bali</strong><br>Nuclear Cybersecurity Advisor</p>
+        </div>
+        <div class="col-md-6">
+          <p><strong>Stewart Gillies</strong><br>GRC Specialist</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section text-center">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
       <p>Email: <a href="mailto:info@astravuex.com">info@astravuex.com</a></p>
       <p>Phone: +60 11 6053 2786 (Amit) | +60 18 362 3273 (Ankita)</p>
       <p>Location: Tallinn, Estonia</p>
@@ -72,7 +109,7 @@
   </section>
 
   <footer class="footer">
-    <p>&copy; 2025 AstravueX Engineering Group. All rights reserved.</p>
+    <p>&copy; 2025 AstravueX Engineering Group. Crafted with precision in Estonia.</p>
   </footer>
 
 </body>
